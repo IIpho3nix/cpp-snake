@@ -193,7 +193,7 @@ public:
             DrawRectangle(segment.x * gridSize, segment.y * gridSize, gridSize, gridSize, WHITE);
         }
 
-        DrawRectangle(appleX * gridSize, appleY * gridSize, gridSize, gridSize, RED);
+        DrawRectangle(appleX * gridSize, appleY * gridSize, gridSize, gridSize, MAROON);
 
         EndDrawing();
     }
